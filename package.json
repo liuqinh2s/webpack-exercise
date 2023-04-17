@@ -1,0 +1,27 @@
+{
+  "name": "webpack-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --progress --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuqinh2s/webpack-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuqinh2s/webpack-exercise/issues"
+  },
+  "homepage": "https://github.com/liuqinh2s/webpack-exercise#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
