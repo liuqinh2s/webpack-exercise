@@ -1,7 +1,11 @@
-console.log("123");
+import { a } from "./main.js";
 
-function a() {
-  console.log("a23678");
+console.log("a:", a);
+
+if (module.hot) {
+  module.hot.accept("./main.js", () => {
+    console.log("main.js更新");
+  });
 }
 
-window.a = a;
+window.b = 12234;
